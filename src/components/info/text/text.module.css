@@ -1,0 +1,20 @@
+.text {
+    border: 1px solid black;
+}
+
+.text p{
+    font-weight: bold;
+    margin: 0;
+    font-family: Luminari, fantasy;
+    font-weight: normal;
+    padding: 10px;
+    text-align: left;
+}
+
+.capitalize{
+    text-transform: capitalize;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: red;
+}

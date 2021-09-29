@@ -1,0 +1,35 @@
+.square3{
+    border: 1px solid black;
+    height: auto;
+    width: 100px;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: square;
+    background-color: rgba(100, 148, 237, 0.315);
+}
+
+ul li:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.158);
+}
+
+ul li:nth-child(odd){
+    background-color: rgba(128, 128, 128, 0.384);
+}
+
+.createCookies button{
+    transition-property: font-size, padding;
+    transition: all 2s ease-in-out;
+    display: inline-block;
+    font-size: 16px;
+    padding: 6px 10px;
+    background-color: rgba(0, 128, 0, 0.514);
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.createCookies button:hover{
+    box-shadow: 2px 2px 6px black;
+}

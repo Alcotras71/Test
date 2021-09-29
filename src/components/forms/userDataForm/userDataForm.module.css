@@ -1,0 +1,57 @@
+.info{
+    border: 2px solid black;
+    padding: 20px 10px;
+}
+
+div.info>div{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.info input{
+    border-radius: 5px;
+}
+
+.info input[type="text"]{
+    transition-property: padding, width;
+    transition: all 2s ease-in-out;
+    padding: 10px;
+    width: 200px;
+}
+
+.info input[type="submit"] {
+    transition: all 2s ease-in-out;
+    transition-property: padding, width;
+    padding: 10px;
+    width: 70px;
+}
+
+.info input[type="reset"] {
+    transition: all 2s ease-in-out;
+    transition-property: padding, width;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    width: 70px;
+    padding: 10px;
+    background-color: rgba(255, 0, 0, 0.103);
+    box-shadow: 2px 2px 6px red;
+}
+
+.info input:hover {
+    background-color: rgba(0, 128, 0, 0.103);
+    border: 2px solid rgba(0, 128, 0, 0.705);
+}
+
+.info input:focus{  
+    background-color: rgba(0, 128, 0, 0.308);
+    border: 3px solid rgba(0, 128, 0, 0.999);
+}
+
+.infoName form>input{
+    margin-bottom: 8px;
+}
+
+div.info>div{
+    margin-top: 8px;
+}

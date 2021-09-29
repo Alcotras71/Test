@@ -1,0 +1,40 @@
+.square1{
+    border: 1px solid black;
+    height: auto;
+    width: 100px;
+    box-sizing: border-box;
+}
+
+.questionImg{
+    transition: width 2s ease-in-out, height 2s ease-in-out;
+    width: 40px;
+    height: 40px;
+}
+
+.textareaForm input{
+    padding: 7px;
+    width: 60px;
+    border-radius: 5px;
+}
+
+.hyperlink{
+    margin-top: 10px;
+}
+
+.hyperlink a:link, .hyperlink a:visited{
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgba(171, 145, 218, 0.137);
+    padding: 10px 15px;
+    color: black;
+    text-align: center;
+    border: 2px solid rgb(13, 80, 65);
+} 
+
+.hyperlink a:hover{
+    box-shadow: 2px 2px 6px black ;
+}
+
+.hyperlink a:active{
+    background-color: cadetblue;
+}
